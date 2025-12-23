@@ -41,7 +41,7 @@ function Update(){
     AverageRPText.innerText = "Average RP Value: "+AverageRP+" RP";
     let SnowflakesPerLaunch = ((AverageRP*Math.sqrt(Selected.length))*2)+1;
     SnowflakesPerLaunchText.innerText = "Snowflakes Per Launch: ❄️"+SnowflakesPerLaunch;
-    SnowflakesPerHourText.innerText = "Snowflakes Per Launch: ❄️"+(SnowflakesPerLaunch*LaunchesPerHour);
+    SnowflakesPerHourText.innerText = "Snowflakes Per Hour: ❄️"+(SnowflakesPerLaunch*LaunchesPerHour);
 };
 
 //Item Clicked
@@ -74,4 +74,5 @@ function DeselectAll(){
         Item.className = "DeselectedItemButton"
     });
     Update();
+
 };
