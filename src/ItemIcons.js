@@ -1,3 +1,4 @@
+//These were aquired from the Industrialist Miraheze Wiki
 export const ItemIcons = {
   "8 Karat Gold":
     "http://static.wikitide.net/industrialistwiki/4/40/Icon-8-karat-gold.png",
@@ -386,3 +387,4 @@ export const ItemIcons = {
   "Zirconium Rod":
     "http://static.wikitide.net/industrialistwiki/7/71/Icon-zirconium-rod.png"
 };
+
