@@ -1,7 +1,7 @@
 html {
   min-height: 100vh;
   background-color: #00779b;
-  color: #000000;
+  color: black;
   overflow-x: hidden;
   font-family: "Fredoka One";
 }
@@ -11,25 +11,19 @@ body {
 }
 
 @media (max-width: 600px) {
-  .boxes {
-    flex-direction: column !important;
-    align-items: center !important;
-  }
-
   .settings {
-    min-width: fit-content !important;
-    padding: 2% 10% !important;
+    min-width: fit-content;
+    padding: 2% 10%;
   }
-
-  .disclaimer {
+  .footer {
     font-size: 14px;
   }
-
   h1 {
     font-size: 5vw;
   }
 }
-.Main {
+
+.Title {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,20 +33,13 @@ body {
 h1 {
   margin: 4px 0;
 }
-.title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 120%;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
-  text-align: center;
-}
-.Settings,
+
+.ItemMenu,
 .Rates {
   margin: 16px;
   margin-left: auto;
   margin-right: auto;
-  background: rgba(235, 219, 178, 0.15);
+  background: rgba(50, 50, 50, 0.35);
   width: fit-content;
   padding: 10px;
   border-radius: 16px;
@@ -62,7 +49,7 @@ h1 {
   justify-content: center;
   flex-direction: column;
 }
-.Settings {
+.ItemMenu {
   min-width: 75%;
 }
 .OptionButtons {
@@ -94,10 +81,7 @@ h1 {
   font-family: "Fredoka One";
   margin: 5px;
   border-radius: 25px;
-  background-image: linear-gradient(
-    to bottom,
-    #313131,
-    #1e1e1e);
+  background-image: linear-gradient(to bottom,#313131,#1e1e1e);
   align-items: center;
   justify-content: center;
   display: flex;
@@ -113,24 +97,40 @@ h1 {
   width: 64px;
   height: 64px;
 }
+
 .ItemText {
   font-size: 90%;
+  color:grey;
+}
+.RPText{
+  background:linear-gradient(to bottom,#00ffff,#009999);
+}
+.OrangeText{
+  background:linear-gradient(to bottom,#ffa500,#b37400);
+}
+.LimeText{
+  background:linear-gradient(to bottom,#00ff00,#008f00);
+}
+.RPText,.OrangeText,.LimeText{
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.disclaimer {
+.footer {
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
   min-height: 15px;
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.35);
   text-align: center;
   font-family: "Fredoka One";
   position: relative;
-  color: rgb(0, 0, 0);
+  color: black;
   border-radius: 5px;
   font-size: 10px;
 }
 
-.disclaimer a {
+.footer a {
   color: #519da1;
 }
