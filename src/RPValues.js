@@ -1,3 +1,4 @@
+//These were aquired from the Industrialist Miraheze Wiki
 export const RPValues = {
   "10 Karat Gold": 1,
   "12 Karat Gold": 1,
@@ -212,3 +213,4 @@ export const RPValues = {
   "Zirconium Dioxide": 1,
   "Zirconium Rod": 1
 };
+
