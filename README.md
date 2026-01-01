@@ -5,7 +5,6 @@ RP Values and Item Icons were aquired from the CargoTable on the [Industrialist 
 # Credits
 
 By [fizzygamer](https://github.com/fizzy-gamer)
-With sources from the [Mineshaft Drill Calculator](https://github.com/Industrialist-Wiki/mineshaft-drill-calculator)
 
 # License
 
